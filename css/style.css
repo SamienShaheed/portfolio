@@ -5,13 +5,21 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.montserrat-Montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Space Mono", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -365,7 +373,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #4c546d;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -402,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: #4c546d;
 }
 #fh5co-about .btn {
   height: 54px;
@@ -1109,6 +1117,19 @@ input[type="text"] {
   transition: 0.5s;
   padding: 8px 20px;
 }
+.btn.btn-sml {
+  padding: 5px 10px !important;
+  display: flex;
+  justify-content: center; /* Horizontally centers the text */
+  align-items: center; /* Vertically centers the text */
+  text-align: center;
+  letter-spacing: normal; /* Adjust letter spacing */
+  word-spacing: normal; /* Adjust word spacing */
+  font-weight: normal; /* Ensure text weight is even */
+}
+
+
+
 .btn.btn-md {
   padding: 8px 20px !important;
 }
@@ -1298,6 +1319,16 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.download-button {
+  padding: 10px 15px;
+  background-color: #2F3C4F;
+  color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Rounded buttons */
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 /* Tab Buttons (Left Column) */
