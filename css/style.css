@@ -1357,10 +1357,10 @@ input[type="text"] {
 /* Tab Content (Right Column) */
 .tab-content {
   display: none;
-  background-color: #2F3C4F;
+  background-color: #fff;
   padding: 15px;
   border-radius: 10px;
-  color: #fff;
+  color: #2F3C4F;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1369,9 +1369,8 @@ input[type="text"] {
 }
 
 .tab-content h3 {
-  color: #fff;
+  color: #2F3C4F;
   font-weight: bold;
 }
-
 
 /*# sourceMappingURL=style.css.map */
